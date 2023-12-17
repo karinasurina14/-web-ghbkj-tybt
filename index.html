@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <link rel="stylesheet" href="style.css" /> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src='gameboard.js'></script> 
+		<script src='snake.js'></script>
+        <script src='script.js'></script> 
+        <title>Змейка</title> 
+    </head> 
+    <body> 
+        <div id='game'> 
+            <div id='gameField'>  
+            </div> 
+            <div id='gameInfo'> 
+				<div id='points'>
+					<div>Ваши очки:</div>
+					<div id='score'>0</div>
+					<div>Скорость:</div>
+					<div id='speed'>1</div>
+				</div>
+				<div id='gamemsg'>
+					<div id='nextRndMsg'>Новый раунд!</div>
+					<div id='loseMsg'>Вы проиграли!</div>
+				</div>
+				<div id='rules'>
+					<p>Для старта нажмите пробел</p>
+					<p>Используйте стрелки для движения</p>
+					<p>Нажмите Esc для выхода</p>
+				</div>
+            </div> 
+        </div> 
+          
+    </body> 
+</html>
